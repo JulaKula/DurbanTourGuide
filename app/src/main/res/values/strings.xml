@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">Durban Tour Guide</string>
+    <string name="info">Info</string>
+    <string name="attractions">Attractions</string>
+    <string name="nature">Nature</string>
+    <string name="museums">Museums</string>
+    <string name="restaurants">Restaurants</string>
+
+    <string name="natural_science_museum">Durban Natural Science Museum</string>
+    <string name="nsm_address">njnj 32, kk ll aa</string>
+    <string name="old_house_museum">The Old House Museum</string>
+    <string name="ohm_address">njnj 32, kk ll aa</string>
+    <string name="kwamuhle_museum">KwaMuhle Museum</string>
+    <string name="km_address">njnj 32, kk ll aa</string>
+    <string name="campbell_collection">The Campbell Collection</string>
+    <string name="cc_address">njnj 32, kk ll aa</string>
+
+    <string name="port_natal_museum">Port Natal Maritime Museum</string>
+    <string name="pnm_address">njnj 32, kk ll aa</string>
+
+    <string name="phansi_museum">Phansi Museum</string>
+    <string name="pm_address">njnj 32, kk ll aa</string>
+
+    <string name="cato_manor_heritage_center">Cato Manor Heritage Center</string>
+    <string name="cmhc_address">njnj 32, kk ll aa</string>
+
+    <string name="cafe_1999">Cafe 1999</string>
+    <string name="address_cafe_1999">Cafe 1999 address</string>
+
+    <string name="butcher_boys">Butcher Boys Florida Road</string>
+    <string name="address_butcher_boys">Butcher Boys Florida Road</string>
+
+    <string name="grill_jichana">Grill Jichana</string>
+    <string name="address_grill_jichana">Grill Jichana</string>
+
+    <string name="mali">Mali\'s Indian Restaurant</string>
+    <string name="address_mali">Mali\'s Indian Restaurant</string>
+
+    <string name="quo_restaurant">Quo Restaurant</string>
+    <string name="address_quo_restaurant">Quo Restaurant</string>
+
+    <string name="avenue_bistro">9th Avenue Bistro</string>
+    <string name="address_avenue_bistro">9th Avenue Bistro</string>
+
+    <string name="little_india">The Little India Restaurant</string>
+    <string name="address_little_india">The Little India Restaurant</string>
+
+    <string name="joops_place">Joops Place</string>
+    <string name="address_joops_place">Joops Place</string>
+
+    <string name="surf_riders">Surf Riders Food Shack</string>
+    <string name="address_surf_riders">Surf Riders Food Shack</string>
+
+    <string name="afro">Afro\'s Chicken Shop</string>
+    <string name="address_afro">Afro\'s Chicken Shop</string>
+
+    <string name="jack_salmon">Jack Salmon Fish House</string>
+    <string name="address_jack_salmon">Jack Salmon Fish House</string>
+
+    <string name="olive_oil">Olive &amp; Oil</string>
+    <string name="address_olive_oil">Olive &amp; Oil</string>
+
+    <string name="mooki_noodle_bar">Mooki Noodle Bar</string>
+    <string name="address_mooki_noodle_bar">Mooki Noodle Bar</string>
+
+    <string name="lupa_osteria">Lupa Osteria</string>
+    <string name="address_lupa_osteria">Lupa Osteria</string>
+
+    <string name="big_easy">Big Easy Durban by Ernie Els</string>
+    <string name="address_big_easy">Big Easy Durban by Ernie Els</string>
+
+    <string name="havana_grill">Havana Grill</string>
+    <string name="address_havana_grill">Havana Grill</string>
+
+    <string name="unity">Unity</string>
+    <string name="address_Unity">Unity</string>
+
+    <string name="mozambik">Mo-Zam-Bik Florida Road</string>
+    <string name="address_mozambik">Mo-Zam-Bik Florida Road address</string>
+
+    <string name="info_text">Durban (Zulu: eThekwini, from itheku meaning \"bay/lagoon\") is the largest
+        city in the South African province of KwaZulu-Natal and the third most populous in South Africa
+        after Johannesburg and Cape Town. Located on the east coast of South Africa, Durban is famous
+        for being the busiest port in the country. It is also seen as one of the major centres of tourism
+        because of the city\'s warm subtropical climate and extensive beaches. Durban forms part of the
+        eThekwini Metropolitan Municipality, which includes neighboring towns and has a population of
+        about 3.44 million. In May 2015, Durban was officially recognised as one of the New7Wonders Cities
+        (together with Vigan, Doha, La Paz, Havana, Beirut, and Kuala Lumpur).
+        \n\nRainbow nation is a term coined by Archbishop Desmond Tutu to describe post-apartheid South Africa,
+        after South Africa\'s first fully democratic election in 1994. The term was intended to encapsulate
+        the unity of multi-culturalism and the coming-together of people of many different nations,
+        in a country once identified with the strict division of white and black.
+        \n\nDurban is ethnically diverse, with a cultural richness of mixed beliefs and traditions.
+        Zulus form the largest single ethnic group. It has a large number of people of British descent
+        and has the most Indians of any city outside India. The influence of Indians in Durban has been
+        significant, bringing with them a variety of cuisine, culture and religion. The faith-based
+        conflict that is evident in many parts of the world is not reflected in Durban\'s religious landscape,
+        where harmony is generally the order of the day.  While the legacy of apartheid is still with us
+        in many ways, contemporary South Africa is a country of great tolerance and acceptance.</string>
+
+    <string name="moses_mabhida_stadium">Moses Mabhida Stadium</string>
+    <string name="moses_mabhida_stadium_info">Activities include a Skycar ride or Adventure Walk to the
+        top of the arch with 360 degree views over Durban; \nGuinness world record Bungee swing;
+        \nSegway gliding tours of the stadium; \nCafes and Restaurants</string>
+    <string name="kingsmead_cricket_ground">Kingsmead Cricket Ground</string>
+    <string name="kingsmead_cricket_ground_info">is a major test match and one-day cricket venue</string>
+    <string name="kings_park_stadium">Kings Park Stadium</string>
+    <string name="kings_park_stadium_info">is host to the internationally renowned Sharks Rugby Team</string>
+    <string name="ice_arena">Durban Ice Arena</string>
+    <string name="ice_arena_info">Activities include leisure ice skating, birthday parties, school excursions,
+        sporting events, teambuilding activities, corporate functions and group bookings</string>
+    <string name="port_durban">Port of Durban/ Harbour</string>
+    <string name="port_durban_info">Durban has a long tradition as a port city. The Port of Durban,
+        formerly known as the Port of Natal, was an extremely busy port of call for ship repairs
+        when the port was opened in the 1840s. Durban is now the busiest port in South Africa,
+        as well as the fourth busiest container port in the Southern Hemisphere.</string>
+    <string name="rickshaws">Rickshaws</string>
+    <string name="rickshaws_info">Durban is known for its iconic Zulu rickshaw pullers navigating throughout
+        the city. These colourful characters are famous for their giant, vibrant hats and costumes.
+        Although they have been a mode of transportation since the early 1900s, they have been displaced
+        by other forms of motorised transport, and the 25 or so remaining rickshaws mostly cater to tourists.</string>
+    <string name="uShaka">uShaka Marine World</string>
+    <string name="uShaka_info">with Wet \'n Wild water park and uShaka Sea World -  the fifth largest aquarium in the world</string>
+    <string name="bunny_chow">Bunny chow</string>
+    <string name="bunny_chow_info">Durban is famous for it\'s Indian food, most notably the Indian food known as
+        the "bunny chow". Ironically the bunny chow, doesn\'t have rabbit meat, it only has beef stuffed in bread.</string>
+
+
+    <string name="burman_bush">Burman Bush</string>
+    <string name="botanic_gardens">The Durban Botanic Gardens</string>
+    <string name="hawaan_forest">Hawaan Forest</string>
+    <string name="new_germany">New Germany Nature Reserve</string>
+    <string name="pigeon_valley">Pigeon Valley Nature reserve</string>
+    <string name="bird_park">Umgeni River Bird Park</string>
+    <string name="umhlanga_reserve">Umhlanga Lagoon Nature Reserve</string>
+    <string name="krantzkloof">Krantzkloof Nature Reserve</string>
+
+
+</resources>
