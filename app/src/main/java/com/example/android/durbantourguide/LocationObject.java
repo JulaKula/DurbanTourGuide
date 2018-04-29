@@ -4,38 +4,31 @@ public class LocationObject {
 
     private int mObjectNameId;
 
-    private int mObjectAddressId;
-
-    private int mObjectInfo;
+    private int mObjectInfoId;
 
     private int mObjectPhotoId;
 
-    public LocationObject(int objectNameId, int objectAddressId) {
+    public LocationObject(int objectNameId, int objectInfoId) {
         mObjectNameId = objectNameId;
-        mObjectAddressId = objectAddressId;
+        mObjectInfoId = objectInfoId;
     }
 
-    public LocationObject(int objectPhotoId, int objectNameId, int objectAddressId) {
+    public LocationObject(int objectPhotoId, int objectNameId, int objectInfoId) {
         mObjectNameId = objectNameId;
         mObjectPhotoId = objectPhotoId;
-        mObjectAddressId = objectAddressId;
+        mObjectInfoId = objectInfoId;
     }
-
-//    public LocationObject(int objectInfo) {
-//        mObjectInfo = objectInfo;
-//    }
 
     public int getObjectNameId() {
         return mObjectNameId;
     }
 
-    public int getObjectAddressId() {
-        return mObjectAddressId;
+    public int getObjectInfoId() {
+        return mObjectInfoId;
     }
 
     public int getObjectPhotoId() {
         return mObjectPhotoId;
     }
-
 
 }

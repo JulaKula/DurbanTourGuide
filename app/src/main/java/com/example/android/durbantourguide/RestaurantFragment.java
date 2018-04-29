@@ -11,18 +11,17 @@ import java.util.ArrayList;
 
 public class RestaurantFragment extends Fragment {
 
-
     public RestaurantFragment() {
         // Required empty public constructor
     }
 
-
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.objects_list, container, false);
 
-        final ArrayList<LocationObject> objects = new ArrayList<LocationObject>();
+        // Create an ArrayList and add newly created LocationObjects
+        ArrayList<LocationObject> objects = new ArrayList<>();
         objects.add(new LocationObject(R.string.cafe_1999, R.string.address_cafe_1999));
         objects.add(new LocationObject(R.string.butcher_boys, R.string.address_butcher_boys));
         objects.add(new LocationObject(R.string.grill_jichana, R.string.address_grill_jichana));
@@ -39,16 +38,14 @@ public class RestaurantFragment extends Fragment {
         objects.add(new LocationObject(R.string.lupa_osteria, R.string.address_lupa_osteria));
         objects.add(new LocationObject(R.string.big_easy, R.string.address_big_easy));
         objects.add(new LocationObject(R.string.havana_grill, R.string.address_havana_grill));
-        objects.add(new LocationObject(R.string.unity, R.string.unity));
+        objects.add(new LocationObject(R.string.unity, R.string.address_unity));
         objects.add(new LocationObject(R.string.mozambik, R.string.address_mozambik));
 
+        // Create an ObjectAdapter, with the foregoing ArrayList as data source. Connect adapter with listView
         ObjectAdapter adapter = new ObjectAdapter(getActivity(), objects);
-
         ListView listView = rootView.findViewById(R.id.list);
-
         listView.setAdapter(adapter);
 
         return rootView;
     }
-
 }

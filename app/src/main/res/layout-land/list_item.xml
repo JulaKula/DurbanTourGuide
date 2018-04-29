@@ -8,22 +8,22 @@
         android:id="@+id/background"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="@dimen/dp16"
         android:background="@color/accentLight"
         android:gravity="center_vertical"
-        android:padding="16dp">
+        android:padding="@dimen/dp16">
 
         <ImageView
             android:id="@+id/image_view"
-            android:layout_width="0dp"
+            android:layout_width="@dimen/zero"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:adjustViewBounds="true"
-            android:paddingRight="16dp"
+            android:paddingRight="@dimen/dp16"
             android:visibility="gone" />
 
         <LinearLayout
-            android:layout_width="0dp"
+            android:layout_width="@dimen/zero"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="vertical">
@@ -32,17 +32,18 @@
                 android:id="@+id/name_text_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginVertical="8dp"
+                android:layout_marginBottom="@dimen/dp8"
+                android:layout_marginTop="@dimen/dp8"
                 android:textAppearance="?android:textAppearanceMedium"
                 android:textStyle="bold"
-                tools:text="lutti" />
+                tools:text="name" />
 
             <TextView
-                android:id="@+id/address_text_view"
+                android:id="@+id/info_text_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:textAppearanceMedium"
-                tools:text="one" />
+                tools:text="some info" />
 
             <ScrollView
                 android:id="@+id/scroll_view"
@@ -51,7 +52,7 @@
                 android:visibility="gone">
 
                 <TextView
-                    android:id="@+id/info_text_view"
+                    android:id="@+id/durban_text_view"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
