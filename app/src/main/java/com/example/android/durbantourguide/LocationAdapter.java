@@ -10,10 +10,10 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class ObjectAdapter extends ArrayAdapter<LocationObject> {
+public class LocationAdapter extends ArrayAdapter<Location> {
 
-    // Create the ObjectAdapter constructor
-    public ObjectAdapter(Context context, ArrayList<LocationObject> objects) {
+    // Create the LocationAdapter constructor
+    public LocationAdapter(Context context, ArrayList<Location> objects) {
         super(context, 0, objects);
     }
 
@@ -26,19 +26,19 @@ public class ObjectAdapter extends ArrayAdapter<LocationObject> {
                     R.layout.list_item, parent, false);
         }
 
-        // Create a LocationObject and call its methods to assign proper values to views in the layout
-        LocationObject currentObject = getItem(position);
+        // Create a Location object and call its methods to assign proper values to views in the layout
+        Location currentObject = getItem(position);
 
         TextView nameTextView = listItemView.findViewById(R.id.name_text_view);
         assert currentObject != null;
-        nameTextView.setText(currentObject.getObjectNameId());
+        nameTextView.setText(currentObject.getName());
 
         TextView infoTextView = listItemView.findViewById(R.id.info_text_view);
-        infoTextView.setText(currentObject.getObjectInfoId());
+        infoTextView.setText(currentObject.getInfo());
 
         ImageView imageView = listItemView.findViewById(R.id.image_view);
-        imageView.setImageResource(currentObject.getObjectPhotoId());
-        if (currentObject.getObjectPhotoId() != 0) {
+        imageView.setImageResource(currentObject.getPhoto());
+        if (currentObject.getPhoto() != 0) {
             imageView.setVisibility(View.VISIBLE);
         }
 

@@ -67,6 +67,9 @@ public class MainActivity extends AppCompatActivity {
                                 getSupportFragmentManager().beginTransaction().replace(R.id.list_layout,
                                         new NatureFragment()).commit();
                                 break;
+                            default:
+                                getSupportFragmentManager().beginTransaction().replace(R.id.list_layout,
+                                        new InfoFragment()).commit();
                         }
 
                         return true;
